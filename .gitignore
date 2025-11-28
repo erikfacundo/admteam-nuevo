@@ -31,9 +31,7 @@ next-env.d.ts
 
 # Archivos grandes de video
 *.mov
-*.mp4
 BMW-E36.mov
-public/video/*.mp4
 recursos/*.mov
 recursos/*.mp4
 
