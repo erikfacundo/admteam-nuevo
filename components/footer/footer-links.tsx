@@ -4,7 +4,7 @@ import { FOOTER_LINKS } from "@/lib/footer-data"
 
 interface FooterLinksProps {
   title: string
-  links: Array<{ href: string; label: string }>
+  links: ReadonlyArray<{ readonly href: string; readonly label: string }>
 }
 
 function FooterLinksComponent({ title, links }: FooterLinksProps) {
