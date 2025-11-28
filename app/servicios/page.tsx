@@ -37,7 +37,7 @@ export const metadata: Metadata = {
 export default function ServiciosPage() {
   return (
     <div className="pt-20">
-      <section className="py-20 sm:py-24 lg:py-32 bg-adm-background">
+      <section className="py-20 sm:py-24 lg:py-16 bg-adm-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 max-w-3xl mx-auto">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 text-adm-secondary">

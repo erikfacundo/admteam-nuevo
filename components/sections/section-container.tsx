@@ -9,7 +9,7 @@ interface SectionContainerProps {
 }
 
 export function SectionContainer({ id, children, className, variant = "default" }: SectionContainerProps) {
-  const baseClasses = "py-20 sm:py-24 lg:py-32 bg-adm-background"
+  const baseClasses = "py-20 sm:py-24 lg:py-16 bg-adm-background"
   const variantClasses = variant === "bordered" ? "border-y border-adm-primary/20" : ""
 
   return (
