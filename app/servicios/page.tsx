@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
-import { Services } from "@/components/services"
-import { Brands } from "@/components/brands"
+import { Services } from "@/components/services/services"
+import { Brands } from "@/components/brands/brands"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"

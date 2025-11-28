@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { Gallery } from "@/components/gallery"
+import { Gallery } from "@/components/gallery/gallery"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"

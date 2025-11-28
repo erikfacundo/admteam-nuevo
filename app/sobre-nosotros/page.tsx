@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
-import { About } from "@/components/about"
-import { Testimonials } from "@/components/testimonials"
+import { About } from "@/components/about/about"
+import { Testimonials } from "@/components/testimonials/testimonials"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { ArrowRight, Award, Users, Target, Zap } from "lucide-react"

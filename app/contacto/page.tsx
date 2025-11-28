@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { Contact } from "@/components/contact"
+import { Contact } from "@/components/contact/contact"
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://admteam.com.ar"
 
