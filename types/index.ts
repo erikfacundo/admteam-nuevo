@@ -18,7 +18,7 @@ export interface Testimonial {
   text: string
 }
 
-export interface ContactFormData {
+export interface ContactFormData extends Record<string, string> {
   name: string
   email: string
   phone: string
