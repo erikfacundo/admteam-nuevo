@@ -2,7 +2,7 @@ import { memo } from "react"
 import Image from "next/image"
 
 interface ServiceImageGridProps {
-  images: string[]
+  images: readonly string[]
   title: string
   reverse?: boolean
 }

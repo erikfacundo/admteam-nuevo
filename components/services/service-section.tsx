@@ -6,7 +6,7 @@ interface ServiceSectionProps {
   icon: React.ComponentType<{ className?: string }>
   title: string
   description: string
-  images?: string[]
+  images?: readonly string[]
   index: number
 }
 

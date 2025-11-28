@@ -45,7 +45,7 @@ export default function PersonalizacionPage() {
                 icon={service.icon}
                 title={service.title}
                 description={service.description}
-                images={service.images}
+                images={"images" in service ? service.images : undefined}
                 index={index}
               />
             ))}
